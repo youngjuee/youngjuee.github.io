@@ -80,7 +80,7 @@ plugins:
 defaults:
   # Posts defaults
   - scope:
-      path: "_posts"
+      path: "_home"
       type: posts
     values:
       layout: post
