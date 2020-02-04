@@ -20,7 +20,7 @@ locale: en-US
 title: "youngju Blog 🎆"
 description: "my develop life 🧀"
 baseurl: # the subpath of your site, e.g. "/blog"
-url: # the base hostname & protocol for your site e.g. "https://mmistakes.github.io"
+url: "https://youngjuee.github.io"
 logo: # path of site logo, e.g. "/images/logo.png"
 date_format: "%B %-d, %Y"
 read_time: # reading time estimates, e.g. true
@@ -54,7 +54,7 @@ feed:
 # Search
 search_full_content: false # can have performance implications for large sites
 
-# Taxonomy pages
+# Taxonomy pages:
 # category_archive_path: "/categories/#"
 # tag_archive_path: "/tags/#"
 
@@ -78,23 +78,24 @@ plugins:
 
 # Collections
 collections:
-  recipes:
+  blog:
     output: true
     permalink: /:collection/:path/
 
 # Front Matter Defaults
 defaults:
-  # Posts defaults
-  - scope:
-      path: "_home"
-      type: home
-    values:
-      layout: post
-      share: true
-  # Recipe defaults
+  # Post defaults
   - scope:
       path: "_posts"
       type: posts
+    values:
+      layout: post
+      comments: true
+      share: true
+  # Recipe defaults
+  - scope:
+      path: "_blog"
+      type: blog
     values:
       layout: post
       comments: true
