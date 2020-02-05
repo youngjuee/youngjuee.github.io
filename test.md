@@ -1,7 +1,7 @@
 ---
-title: blog
+title: test
 layout: collection
-permalink: /blog/
-collection: blog
+permalink: /test/
+collection: test
 entries_layout: grid
 ---
