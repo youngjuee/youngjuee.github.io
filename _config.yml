@@ -3,8 +3,8 @@ skin: /assets/css/skins/default.css
 locale: en-US
 title: "youngju Blog \U0001F386"
 description: "my develop life \U0001F9C0"
-baseurl: null
-url: "https://youngjuee.github.io/home"
+baseurl: "/home"
+url: "https://youngjuee.github.io"
 logo: null
 date_format: "%B %-d, %Y"
 read_time: null
