@@ -1,13 +1,13 @@
 # Sample site navigation bar links
 
+- title: Blog
+  url: /blog/
 - title: Home
-  url: /home/
+  url: /
 - title: category
   url: /categories/
 # - title: Tags
 #   url: /tags/
-- title: Blog
-  url: /blog/
 - title: books
   url: /books/
 # - title: Search
