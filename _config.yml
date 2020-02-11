@@ -4,7 +4,7 @@ locale: en-US
 title: "youngju Blog \U0001F386"
 description: "my develop life \U0001F9C0"
 baseurl: null
-url: "https://youngjuee.github.io"
+url: "https://youngjuee.github.io/home"
 logo: null
 date_format: "%B %-d, %Y"
 read_time: null
@@ -37,6 +37,9 @@ collections:
     output: true
     permalink: /:collection/:path/
   books:
+    output: true
+    permalink: /:collection/:path/
+  home:
     output: true
     permalink: /:collection/:path/
 defaults:

@@ -2,8 +2,6 @@
 layout: post
 title: "HI"
 date: 2020-02-03 15:31:48 +0900
-categories:
-  - Edge Case
 ---
 
-신기한 나의 post
+home
