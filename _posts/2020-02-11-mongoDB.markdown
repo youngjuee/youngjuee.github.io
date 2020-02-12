@@ -1,10 +1,10 @@
 ---
-title: mongodb
-layout: posts
+title: mongodb shell 접속
+layout: post
 date: "2020-02-11 16:51:48 +0900"
 categories:
   - MongoDB
 ---
 
-- mongoDB shell 접속
+- mongoDB shell 접속 <br/>
   `mongo -port (portnumber) -u username -p 'password'`
