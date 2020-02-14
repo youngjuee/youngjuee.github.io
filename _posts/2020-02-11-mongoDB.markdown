@@ -1,10 +1,12 @@
 ---
 title: mongodb shell 접속
 layout: post
-date: "2020-02-11 16:51:48 +0900"
+date: '2020-02-11 16:51:48 +0900'
 categories:
-  - MongoDB
+- MongoDB
 ---
 
-- mongoDB shell 접속 <br/>
-  `mongo -port (portnumber) -u username -p 'password'`
+직접 console에 쿼리를 입력해야 할 일이 생겼다
+
+1. 우선 xshell을 통해 데이터베이스 host로 접속
+2.    `mongo -port (portnumber) -u username -p 'password'`
